@@ -100,7 +100,7 @@ jobs:
           # 
 
           # 编译x64固件:
-          # cat >> .config <<EOF
+          cat >> .config <<EOF
           # CONFIG_TARGET_x86=y
           # CONFIG_TARGET_x86_64=y
           # CONFIG_TARGET_x86_64_Generic=y
@@ -196,7 +196,7 @@ jobs:
           # cat >> .config <<EOF
           # # CONFIG_TARGET_IMAGES_PAD is not set
           # # CONFIG_VMDK_IMAGES is not set
-          # EOF
+          EOF
 
           # 
           # ========================固件定制部分结束========================
